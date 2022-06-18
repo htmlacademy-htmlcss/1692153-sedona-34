@@ -22,6 +22,7 @@
           <li class="navigation-item">
             <a class="navigation-link " href="catalog.html">Гостиницы</a>
           </li>
+
         </ul>
         <div class="navigation-user">
             <a class="navigation-user-link" href="#">
@@ -31,6 +32,7 @@
             <span class="visually-hidden">Поиск</span>
             </a>
             <a class="navigation-user-link" href="#"><span class="visually-hidden">Лайк</span>
+
               <svg class="navigation-icon" aria-hidden="true" focusable="false" width="19" height="17" viewBox="0 0 19 17"  xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.44 17c-.3 0-.6-.1-.8-.4-5.41-6.1-6.72-7.5-7.02-7.9A5.4 5.4 0 0 1 6.03 0c1.3 0 2.51.5 3.51 1.3a5.47 5.47 0 0 1 9.03 4.1c0 1.3-.5 2.5-1.3 3.4l-7.02 7.9c-.2.2-.4.3-.8.3ZM3.43 7.5c.3.4 3.5 4 6.11 6.9l6.22-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2.01.5-2.71 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 3.7 0 0 0-2.72-1.3c-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" />
               </svg>
@@ -52,6 +54,7 @@
       <img class="welcome" src="images/welcome.svg" width="187" height="44" alt="Добро пожаловать">
       <img class="to-the-georgeous" src="images/to-the-gergeous.svg" width="256" height="28" alt="в Джорджию">
       <img class="sedona-main-logo" src="images/sedona.svg" width="456" height="212" alt="Седона">
+      <img class="add-for-main-backround" src="images/add-for-main-backround.svg" width="1200" height="57" alt="разделитель для для главного фона">
       </section>
       <section class="divider">
         <h2 class="divider-title"><b>Седона — небольшой городок в Аризоне,<br>
@@ -152,7 +155,7 @@
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="email"></label>
           <input class="field" type="email" name="email" id="email" placeholder="Вашь e-mail">
-          <button class="email-button submit light-blue-button" type="submit">
+          <button class="email-button submit light-blue-button" type="submit">Подписаться</!--b>
         </form>
       </section>
       </div>
@@ -203,30 +206,68 @@
       </div>
     </footer>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-search">
         <button class="modal-close-button">
-        <span class="visually-hidden">Закрыть</span>
+          <span class="visually-hidden">Закрыть</span>
+          <svg class="close-button" aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="#000" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z"/>
+          </svg>
         </button>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
             <p class="field-group">
-              <label for="date-in">Дата заезда:</label>
+              <label class="date-in" for="date-in">Дата заезда:</label>
               <input class="search-form-field" type="date" id="date-in"><br>
-              <label for="date-out">Дата выезда:</label>
-              <input class="search-form-field" type="date" id="date-out"><br>
-              <label for="adult-quantity">Взрослые:</label>
+              <label class="date-out" for="date-out">Дата выезда:</label>
+              <input class="search-form-field" type="date" id="date-out" placeholder="Укажите дату"><br>
+              <div class="quantity-adult-form">
+              <label class="adult-quantity" for="adult-quantity">Взрослые:</label>
+              <button class="number-minus" type="button">
+                <svg class="minus-icon" width="13" height="1" viewBox="0 0 13 1" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.3" d="M0 0v1h13V0H0Z"/>
+                </svg>
+              </button>
               <input class="quantity-form-field" type="number" value="2" id="adult-quantity">
-              <label for="child-quantity">Дети:</label>
-              <input class="quantity-form-field" type="text" value="1" id="child-quantity"><br>
-              <button class="button button light-blue-button" type="submit">Найти</button>
+              <button class="number-plus" type="button">
+                <svg class="plus-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" opacity="0.3"/>
+                </svg>
+              </button>
+
+
+              <span class="child-quantity child-quantity-label-icon">
+              <label class="child-quantity" for="child-quantity">Дети:</label>
+              <span class="tooltip">
+                <img class="tooltip-dot" src="images/modal-logos/tooltip-dot.svg" width="5" height="7" alt="точка эмблемы тултипа">
+                <img class="tooltip-brick" src="images/modal-logos/tooltip-brick.svg" width="5" height="6" alt="палочка эмблемы тултипа">
+                <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                <svg class="tooltip-icon" width="25" height="25" viewBox="0 0 25 25" fill="#83B3D3" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12.5" cy="12.5" r="12.5"></svg>
+                </button>
+                <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                </span>
+              </span>
+              </span>
+              <button class="number-minus last-minus" type="button">
+                <svg class="minus-icon" width="13" height="1" viewBox="0 0 13 1" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.3" d="M0 0v1h13V0H0Z"/>
+              </svg>
+            </button>
+              <input class="quantity-form-field" type="number" value="1" id="child-quantity">
+              <button class="number-plus last-plus" type="button">
+                <svg class="plus-icon" width="13" height="13" viewBox="0 0 13 13" fill="#000" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" opacity="0.3"/>
+                </svg>
+              </button><br>
+              </div>
+              <button class="button light-blue-button field-search-button" type="submit">Найти</button>
 
 
           </form>
         </section>
       </div>
     </div>
-
   </body>
 </html>
