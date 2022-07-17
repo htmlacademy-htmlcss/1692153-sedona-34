@@ -28,7 +28,8 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
+
 }
 
 .visually-hidden {
@@ -44,7 +45,7 @@ body {
 
 .button {
   display: inline-block;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -102,7 +103,7 @@ body {
 }
 
 .submit {
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -142,7 +143,7 @@ body {
   padding: 0;
   background-color: transparent;
   color: #FFFFFF;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -174,13 +175,6 @@ body {
   background-color: #7DB54F;
 }
 
-.line-separatorb {
-  margin-left: 73px;
-  margin-right: 72px;
-  margin-bottom: 30px;
-  border-bottom:  1px solid #E6E6E6;
-}
-
 .page-header {
   color: #000000;
 }
@@ -190,6 +184,8 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .page-header-logo {
@@ -230,7 +226,6 @@ body {
   border-bottom: 2px solid #756257;
   padding-bottom: 18px;
 }
-
 
 .navigation-user {
   display: flex;
@@ -300,7 +295,7 @@ body {
   margin: 0;
   padding-top: 92px;
   margin-bottom: 30px;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -330,7 +325,7 @@ body {
 
 .mini-logo {
   padding-top: 81px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .mini-logo-2 {
@@ -355,7 +350,7 @@ body {
 
 .sub-menu-title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .sub-menu-description {
@@ -386,7 +381,6 @@ body {
   margin-bottom: 30px;
 }
 
-
 .advantages-description {
   margin: 0;
   padding-bottom: 102px;
@@ -400,28 +394,22 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .welcome {
   display: block;
   margin: 0 auto;
-  margin-bottom: 11px;
+  margin-bottom: 24px;
   padding-top: 51px;
 }
 
-.to-the-georgeous {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 54px;
-}
-
-.sedona-main-logo {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 26px;
-}
-
 .add-for-main-backround {
+  width: 1200px;
+  height: 57px;
+  background-image: url("../images/add-for-main-backround.svg");
+  background-repeat: no-repeat;
   display: block;
   margin: 0 auto;
 }
@@ -438,7 +426,7 @@ body {
   padding-right: 290px;
   padding-left: 290px;
   margin-bottom: 31px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -450,7 +438,7 @@ body {
 .divider-paragraph {
   display: flex;
   justify-content: center;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -479,6 +467,7 @@ body {
 }
 
 .main-welcome {
+  background-color: #FFFFFF;
   background-image: url("../images/main-background.jpg");
   color: #333333;
   background-size: 100% auto;
@@ -504,7 +493,7 @@ body {
 .advantages-title,
 .sub-menu-title,
 .divider-title {
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -515,7 +504,7 @@ body {
 
 .divider-title {
   padding-top: 63px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -542,7 +531,7 @@ body {
 }
 
 .search-title {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -551,10 +540,11 @@ body {
   margin: 0;
   margin-bottom: 29px;
   padding-top: 91px;
+  color: #000000;
 }
 
 .search-discription {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -568,6 +558,7 @@ body {
 }
 
 .subscribe-main {
+  background-color: #FFFFFF;
   background-image: url("../images/turbid-background.jpg");
   color: #ffffff;
   background-size: 100% auto;
@@ -581,7 +572,7 @@ body {
 }
 
 .subscribe-title {
-  font: "PT Sans";
+  font: "PT Sans", sans-serif;
   font-weight: 700px;
   font-style: normal;
   font-size: 30px;
@@ -591,6 +582,10 @@ body {
   padding-top: 94px;
   margin: 0;
   margin-bottom: 29px;
+}
+
+.subscribe-title-black {
+  color: #000000;
 }
 
 .subscribe-description {
@@ -639,7 +634,6 @@ body {
 
 .email-button {
   padding: 0;
-  margin-left: ;
   width: 200px;
   min-height: 60px;
   border: none;
@@ -648,7 +642,7 @@ body {
 }
 
 .email-bottom-label {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -660,7 +654,7 @@ body {
   background-color: #68A2CA;
 }
 
-.email-button:active{
+.email-button:active {
   color:rgba(255, 255, 255, 0.3);
 }
 
@@ -674,6 +668,7 @@ body {
   justify-content: baseline;
   width: 1200px;
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
 
 .footer-social-list {
@@ -726,7 +721,7 @@ body {
 }
 
 .phone-number {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -761,7 +756,7 @@ body {
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-left: 208px;
-  margin-top: 32px;
+  margin-top: 34px;
   padding: 16px;
   padding-right: 0;
   border-radius: 4px;
@@ -837,14 +832,13 @@ body {
   opacity: 0.3;
 }
 
-
 .modal-title {
   margin: 0;
   padding: 0;
   margin-top: 62px;
   margin-right: 111px;
   margin-bottom: 63px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
@@ -865,44 +859,11 @@ body {
   background-position: right 18px center;
 }
 
-.search-form-field[type=date]::-webkit-datetime-edit-text {
-  -webkit-appearance: none;
-  display: none;
-}
-.search-form-field[type=date]::-webkit-datetime-edit-month-field {
-  -webkit-appearance: none;
-  display: none;
-}
-.search-form-field[type=date]::-webkit-datetime-edit-day-field {
-  -webkit-appearance: none;
-  display: none;
-}
-.search-form-field[type=date]::-webkit-datetime-edit-year-field {
-  -webkit-appearance: none;
-  display: none;
-}
-
-.search-placeholder::before {
-  content: "27 апреля 2020";
-  font-family: "PT Sans";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.search-placeholder-2::before {
-  content: "1 сентября 2021";
-  font-family: "PT Sans";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 40px;
-}
-
 .error-date-in {
   margin: 0;
   margin-top: 7px;
   margin-bottom: 11px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -914,7 +875,7 @@ body {
   margin: 0;
   margin-top: 7px;
   margin-bottom: 11px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -931,7 +892,7 @@ body {
 
 .date-in {
   margin-right: 42px;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -941,7 +902,7 @@ body {
 .date-out {
   margin-right: 36px;
   margin-bottom: 64px;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -952,13 +913,13 @@ body {
   display: flex;
 }
 
-
 .number-minus {
   padding: 0;
   width: 44px;
   height: 50px;
   margin: 0;
   border: none;
+  background-color: #F2F2F2;
   cursor: pointer;
 }
 
@@ -1000,6 +961,7 @@ body {
   margin: 0;
   margin-right: 56px;
   border: none;
+  background-color: #F2F2F2;
   cursor: pointer;
 }
 
@@ -1014,7 +976,7 @@ body {
 .adult-quantity {
   margin-top: 10px;
   margin-right: 64px;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1022,8 +984,8 @@ body {
 }
 
 .quantity-form-field {
-  font: "PT Sans";
-  font-weight: 700;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 40px;
   box-sizing: border-box;
@@ -1040,7 +1002,7 @@ body {
 
 .child-quantity {
   text-align: center;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1050,7 +1012,7 @@ body {
 .field-search-button {
   width: 575px;
   height: 60px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -1083,24 +1045,13 @@ body {
   cursor: pointer;
 }
 
-.search-form-field::placeholder {
-  color: #000000;
-  font-family: inherit;
-  font-style: bold;
-  font-size: 18px;
-  line-height: 40px;
-  line-height: 172%;
-  text-align: left;
-  vertical-align: center;
-}
-
 .search-form-field {
   margin: 0;
   padding: 0;
   padding-left: 19px;
   width: 420px;
   height: 50px;
-  font: inherit;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 40px;
   background-color: #F2F2F2;
@@ -1140,11 +1091,11 @@ body {
 }
 
 .tooltip-text {
-  background-color: #242424;
+  background-color: #333333;
   color: #ffffff;
   font-size: 16px;
   line-height: 21px;
-  font-weight: normal;
+  font-weight: 400;
   text-transform: none;
   padding-top: 15px;
   padding-right: 18px;
@@ -1159,6 +1110,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
   display: none;
 }
 
@@ -1182,14 +1134,14 @@ body {
 }
 
 .tooltip-text:after {
-  content:'';
+  content: "";
   background-image: url("../images/modal-logos/tooltip-arrow.svg");
   width: 19px;
   height: 9px;
-  position:absolute;
+  position: absolute;
   bottom: 100%;
   left: 15px;
-  right:0;
+  right: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1203,7 +1155,7 @@ body {
   padding-left: 71px;
   padding-bottom: 10px;
   margin: 0;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -1246,12 +1198,21 @@ body {
 .breadcrumbs-logo {
   padding: 3px;
   padding-top: 0;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
-.arrow-logo {
-  margin-right: 8px;
-  padding-bottom: 4px;
+.arrow {
+  width: 5px;
+  height: 5px;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  margin-left: -3px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+.arrow-right {
+  transform: rotate(45deg);
 }
 
 .hotels {
@@ -1259,7 +1220,7 @@ body {
 }
 
 .breadcrumbs-hotels {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -1267,14 +1228,15 @@ body {
 }
 
 .catalog-hotels {
+  background-color: #FFFFFF;
   background-image: url("../images/turbid-background-2.jpg");
   background-size: 100% auto;
-  background-repeat: no-repeat;
   color: #FFFFFF;
 }
 
 .filters {
   display: flex;
+  margin-top: -3px;
 }
 
 .checkbox-filter {
@@ -1330,7 +1292,11 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.control-label:focus .control-mark {
+.control-input[type="radio"]:focus + .control-mark {
+  outline: 3px solid #83B3D3;
+}
+
+.control-input[type="checkbox"]:focus + .control-mark {
   outline: 3px solid #83B3D3;
 }
 
@@ -1361,7 +1327,7 @@ body {
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1378,9 +1344,6 @@ body {
   margin-left: -1px;
 }
 
-.filters {
-  margin-top: -3px ;
-}
 .range-price-title {
   margin-left: 1px;
   margin-bottom: 35px;
@@ -1456,7 +1419,6 @@ body {
 
 .range-wrapper-inputs {
   display: flex;
-  justify-content: space-between;
 }
 
 .range-input {
@@ -1488,7 +1450,6 @@ body {
   padding-top: 12px;
   padding-bottom: 11px;
   padding-left: 17px;
-  padding-right: 115px;
   font: inherit;
   text-align: left;
   color: white;
@@ -1549,7 +1510,7 @@ body {
 }
 
 .hotels-found {
-  font: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
@@ -1587,6 +1548,7 @@ body {
   font-weight: 400;
   background-color: #ffffff;
   border: 2px solid #E6E6E6;
+  border-radius: 4px;
   background-image: url("../images/select-icon.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
@@ -1596,12 +1558,17 @@ body {
 
 .select-control:hover,
 .select-control:focus {
-  outline: 2px solid #83B3D3;
+  outline: 2px solid #68A2CA;
 }
 
 .select-control:active {
-  outline: 1px solid #E6E6E6;
+  outline: 2px solid #3F5E72;
   color: #E6E6E6;
+}
+
+.select-control:disabled {
+  background-color: #000000;
+  opacity: 0.3;
 }
 
 .sorting-container .button {
@@ -1609,7 +1576,7 @@ body {
   height: 48px;
 }
 
-.button-sorting {
+.button-view-select {
   margin-right: 8px;
   background-color: #FFFFFF;
   border: 2px solid #E6E6E6;
@@ -1617,20 +1584,20 @@ body {
   border-radius: 4px;
 }
 
-.button-sorting:last-child {
+.button-view-select:last-child {
   margin-right: 0;
 }
 
-.button-sorting-chosen {
+.button-view-select-chosen {
   border-color: #000000;
 }
 
-.button-sorting:hover:not(.button-sorting-chosen) {
+.button-view-select:hover:not(.button-sorting-chosen) {
   border: none;
   outline: 2px solid #83B3D3;
 }
 
-.button-sorting:focus:not(.button-sorting-chosen) {
+.button-view-select:focus:not(.button-sorting-chosen) {
   border: none;
   outline: 2px solid #83B3D3;
 }
@@ -1641,7 +1608,7 @@ body {
 
 .hotel-card-title {
   text-decoration: none;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -1699,7 +1666,7 @@ body {
 .pagination-link {
   display: block;
   box-sizing: border-box;
-  font-family: inherit;
+  font-family: "PT Sans", sans-serif;
   padding: 14px 20px;
   padding-top: 9px;
   padding-bottom: 12px;
@@ -1739,7 +1706,7 @@ body {
   width: 160px;
   height: 48px;
   margin-top: 5px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -1813,16 +1780,28 @@ body {
 }
 
 .stars-4 {
+  width: 91px;
+  height: 17px;
+  background-image: url("../images/stars-4.svg");
+  background-repeat: no-repeat;
   margin-right: 49px;
   margin-top: 10px;
 }
 
 .stars-3 {
+  width: 68px;
+  height: 17px;
+  background-image: url("../images/stars-3.svg");
+  background-repeat: no-repeat;
   margin-right: 72px;
   margin-top: 10px;
 }
 
 .stars-2 {
+  width: 43px;
+  height: 17px;
+  background-image: url("../images/stars-2.svg");
+  background-repeat: no-repeat;
   margin-right: 97px;
   margin-top: 10px;
 }
@@ -1858,7 +1837,7 @@ body {
 }
 
 .rating {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1911,7 +1890,7 @@ body {
   opacity: 0.3;
 }
 
-.hotel-card-link:focus .hotel-card-image{
+.hotel-card-link:focus .hotel-card-image {
   outline: 3px solid #83B3D3;
 }
 
