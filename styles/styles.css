@@ -1525,7 +1525,6 @@ body {
 
 .sorting-container {
   display: flex;
-  justify-content: baseline;
   padding-top: 38px;
   padding-right: 72px;
 }
