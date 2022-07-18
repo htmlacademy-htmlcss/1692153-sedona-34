@@ -398,22 +398,6 @@ body {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
-.welcome {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 24px;
-  padding-top: 51px;
-}
-
-.add-for-main-backround {
-  width: 1200px;
-  height: 57px;
-  background-image: url("../images/add-for-main-backround.svg");
-  background-repeat: no-repeat;
-  display: block;
-  margin: 0 auto;
-}
-
 .divider {
   justify-content: space-between;
 }
@@ -467,11 +451,29 @@ body {
 }
 
 .main-welcome {
-  background-color: #FFFFFF;
+  background-color: #615451;
   background-image: url("../images/main-background.jpg");
   color: #333333;
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+
+.welcome {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding-top: 51px;
+}
+
+.main-welcome::after {
+  content: "";
+  width: 1200px;
+  height: 57px;
+  background-image: url("../images/add-for-main-backround.svg");
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
 }
 
 .catalog-filter-list {
@@ -558,7 +560,7 @@ body {
 }
 
 .subscribe-main {
-  background-color: #FFFFFF;
+  background-color: #10401d;
   background-image: url("../images/turbid-background.jpg");
   color: #ffffff;
   background-size: 100% auto;
@@ -1052,8 +1054,9 @@ body {
   width: 420px;
   height: 50px;
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 21px;
   background-color: #F2F2F2;
   border-radius: 4px;
   border: none;
@@ -1171,6 +1174,7 @@ body {
 
 .breadcrumbs-link {
   margin-right: 8px;
+  margin-left: 12px;
   border-radius: 4px;
   text-decoration: none;
   color: #FFFFFF;
@@ -1201,17 +1205,15 @@ body {
   margin-top: 4px;
 }
 
-.arrow {
+.arrow::after {
+  content: "";
+  position: absolute;
   width: 5px;
   height: 5px;
   border-top: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
-  margin-left: -3px;
-  margin-right: 10px;
+  margin-left: -4px;
   margin-top: 7px;
-}
-
-.arrow-right {
   transform: rotate(45deg);
 }
 
@@ -1228,7 +1230,7 @@ body {
 }
 
 .catalog-hotels {
-  background-color: #FFFFFF;
+  background-color: #4a3935;
   background-image: url("../images/turbid-background-2.jpg");
   background-size: 100% auto;
   color: #FFFFFF;
